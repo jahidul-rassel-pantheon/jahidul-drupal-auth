@@ -122,16 +122,16 @@ export default function OAuthUserDebug() {
                         ---------------------------<br />
                         <b>[Step 1] Token URL:</b> https://oauth2-jahidul-test-auth.pantheonsite.io/oauth/token<br />
                         <b>Request Data:</b><br />
-                        "grant_type": "password"<br />
-                        "client_id": "SimpleAuthClientUUID" [ 'UUID' will be auto genarated after creating a Customer from SimpleAuth Config ]<br />
-                        "client_secret": "SimpleAuthClientSecret" [ 'client_secret' is from customer of SimpleAuth Config ]<br />
-                        "username": "DrupalUserName"<br />
-                        "password": "DrupalUserPassword"<br />
+                        &apos;grant_type&apos;: &apos;password&apos;<br />
+                        &apos;client_id&apos;: &apos;SimpleAuthClientUUID&apos; [ &apos;UUID&apos; will be auto genarated after creating a Customer from SimpleAuth Config ]<br />
+                        &apos;client_secret&apos;: &apos;SimpleAuthClientSecret&apos; [ &apos;client_secret&apos; is from customer of SimpleAuth Config ]<br />
+                        &apos;username&apos;: &apos;DrupalUserName&apos;<br />
+                        &apos;password&apos;: &apos;DrupalUserPassword&apos;<br />
                         ---------------------------<br />
                         <b>[Step 2] Token URL:</b> https://oauth2-jahidul-test-auth.pantheonsite.io/oauth/debug?_format=json<br />
                         <b>Request Header:</b><br />
-                        "Content-Type": "application/json"<br />
-                        "Authorization": "Bearer OAuthToken" [ Returns from 1st Part 'oauthTokenReturnData.access_token' ]<br />
+                        &apos;Content-Type&apos;: &apos;application/json&apos;<br />
+                        &apos;Authorization&apos;: &apos;Bearer OAuthToken&apos; [ Returns from 1st Part &apos;oauthTokenReturnData.access_token&apos; ]<br />
 
                         <br />
                         <h4>Drupal Admin Details</h4>

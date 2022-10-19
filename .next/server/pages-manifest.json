@@ -1,7 +1,22 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/auth/basic_auth/Registration": "pages/auth/basic_auth/Registration.html",
+  "/auth/basic_auth/Login": "pages/auth/basic_auth/Login.html",
+  "/auth/jwt_auth/Login[BACK]": "pages/auth/jwt_auth/Login[BACK].html",
+  "/auth/jwt_auth/Login": "pages/auth/jwt_auth/Login.html",
+  "/auth/jwt_auth/Login[V2]": "pages/auth/jwt_auth/Login[V2].html",
+  "/auth/basic": "pages/auth/basic.html",
+  "/auth/simple_auth/Login": "pages/auth/simple_auth/Login.html",
+  "/auth/jwt_auth/TokenRequest": "pages/auth/jwt_auth/TokenRequest.html",
+  "/auth/simple_auth/Login[Common]": "pages/auth/simple_auth/Login[Common].html",
+  "/auth/basic_auth/UserDetails": "pages/auth/basic_auth/UserDetails.html",
+  "/confidential-pages/my_account": "pages/confidential-pages/my_account.html",
+  "/testing/CSRPage": "pages/testing/CSRPage.html",
+  "/auth/simple_auth/TokenRequest": "pages/auth/simple_auth/TokenRequest.html",
+  "/auth/simple_auth/OAuthUserDebug": "pages/auth/simple_auth/OAuthUserDebug.html",
+  "/": "pages/index.html",
   "/_document": "pages/_document.js",
-  "/auth/basic_auth/UserDetails": "pages/auth/basic_auth/UserDetails.js",
-  "/auth/jwt_auth/Login": "pages/auth/jwt_auth/Login.js"
+  "/404": "pages/404.html"
 }

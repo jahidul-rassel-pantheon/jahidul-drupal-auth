@@ -118,19 +118,19 @@ export default function Login() {
                         ---------------------------<br />
                         <b>[Step 1] Token URL:</b> https://oauth2-jahidul-test-auth.pantheonsite.io/oauth/token<br />
                         <b>Request Data:</b><br />
-                        "grant_type": "password"<br />
-                        "client_id": "SimpleAuthClientUUID" [ 'UUID' will be auto genarated after creating a Customer from SimpleAuth Config ]<br />
-                        "client_secret": "SimpleAuthClientSecret" [ 'client_secret' is from customer of SimpleAuth Config ]<br />
-                        "username": "DrupalUserName"<br />
-                        "password": "DrupalUserPassword"<br />
+                        &apos;grant_type&apos;: &apos;password&apos;<br />
+                        &apos;client_id&apos;: &apos;SimpleAuthClientUUID&apos; [ &apos;UUID&apos; will be auto genarated after creating a Customer from SimpleAuth Config ]<br />
+                        &apos;client_secret&apos;: &apos;SimpleAuthClientSecret&apos; [ &apos;client_secret&apos; is from customer of SimpleAuth Config ]<br />
+                        &apos;username&apos;: &apos;DrupalUserName&apos;<br />
+                        &apos;password&apos;: &apos;DrupalUserPassword&apos;<br />
                         ---------------------------<br />
                         <b>[Step 2] Token URL:</b> https://oauth2-jahidul-test-auth.pantheonsite.io/user/login?_format=json<br />
                         <b>Request Header:</b><br />
-                        "Content-Type": "application/json"<br />
-                        "X-CSRF-Token": "ReturnFrom1stStep.access_token"<br />
+                        &apos;Content-Type&apos;: &apos;application/json&apos;<br />
+                        &apos;X-CSRF-Token&apos;: &apos;ReturnFrom1stStep.access_token&apos;<br />
                         <b>Request Data:</b><br />
-                        "name": "DrupalUserName"<br />
-                        "pass": "DrupalUserPassword"<br />
+                        &apos;name&apos;: &apos;DrupalUserName&apos;<br />
+                        &apos;pass&apos;: &apos;DrupalUserPassword&apos;<br />
 
                         <br />
                         <h4>Drupal Admin Details</h4>

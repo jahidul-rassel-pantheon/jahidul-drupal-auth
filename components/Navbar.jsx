@@ -23,24 +23,28 @@ export default function Navbar() {
 
 
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                SimpleAuth[OAuth2]
-              </a>
+              <Link href="#" passHref>
+                <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SimpleAuth[OAuth2]
+                </a>
+              </Link>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="/auth/simple_auth/TokenRequest">Token Request</a></li>
-                <li><a className="dropdown-item" href="/auth/simple_auth/Login">User Login</a></li>
-                <li><a className="dropdown-item" href="/auth/simple_auth/OAuthUserDebug">User Debug</a></li>
+                <li><Link href="/auth/simple_auth/TokenRequest" passHref><a className="dropdown-item" >Token Request</a></Link></li>
+                <li><Link href="/auth/simple_auth/Login" passHref><a className="dropdown-item" >User Login</a></Link></li>
+                <li><Link href="/auth/simple_auth/OAuthUserDebug" passHref><a className="dropdown-item" >User Debug</a></Link></li>
               </ul>
             </li>
 
 
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                JWT Auth
-              </a>
+              <Link href="#" passHref>
+                <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  JWT Auth
+                </a>
+              </Link>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="/auth/jwt_auth/TokenRequest">Token Request</a></li>
-                <li><a className="dropdown-item" href="/auth/jwt_auth/Login">User Login</a></li>
+                <li><Link href="/auth/jwt_auth/TokenRequest" passHref><a className="dropdown-item" >Token Request</a></Link></li>
+                <li><Link href="/auth/jwt_auth/Login" passHref><a className="dropdown-item" >User Login</a></Link></li>
               </ul>
             </li>
 
@@ -48,11 +52,13 @@ export default function Navbar() {
 
 
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Basic Auth
-              </a>
+              <Link href="#" passHref>
+                <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Basic Auth
+                </a>
+              </Link>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="/auth/basic_auth/UserDetails">User Details</a></li>
+                <li><Link href="/auth/basic_auth/UserDetails" passHref><a className="dropdown-item" >User Details</a></Link></li>
               </ul>
             </li>
 

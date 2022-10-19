@@ -52,12 +52,12 @@ export default function UserDetails() {
                 <h4>User Login [JWT Token]</h4>
         
                 <div className="card-text">
-                CMS URL:  <Link href={"https://jwt-jahidul-test-auth.pantheonsite.io/"}><a>https://jwt-jahidul-test-auth.pantheonsite.io/</a></Link><br />
+                CMS URL:  <Link href="https://jwt-jahidul-test-auth.pantheonsite.io/"><a>https://jwt-jahidul-test-auth.pantheonsite.io/</a></Link><br />
                 URL In Use:  https://jwt-jahidul-test-auth.pantheonsite.io/jwt/token?_format=json<br />
                 
                 <br />
                 <b>Request Header:</b><br />
-                'Authorization': 'Basic ' + btoa("DrupalUsername:DrupalPassword")<br />
+                &apos;Authorization&apos;: &apos;Basic &apos; + btoa(&apos;DrupalUsername:DrupalPassword&apos;)<br />
 
                 <br />
                 <h4>Drupal Admin Details</h4>

@@ -66,7 +66,7 @@ export default function TokenRequest() {
                 
                 <br />
                 <b>Request Header:</b><br />
-                'Authorization': 'Basic ' + btoa("DrupalUsername:DrupalPassword")<br />
+                &apos;Authorization&apos;: &apos;Basic &apos; + btoa(&apos;DrupalUsername:DrupalPassword&apos;)<br />
 
                 <br />
                 <h4>Drupal Admin Details</h4>

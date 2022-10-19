@@ -49,11 +49,11 @@ export default function TokenRequest() {
                 
                 <br />
                 <h4>Request Data:</h4>
-                "grant_type": "password"<br />
-		        "client_id": "SimpleAuthClientUUID" [ 'UUID' will be auto genarated after creating a Customer from SimpleAuth Config ]<br />
-                "client_secret": "SimpleAuthClientSecret" [ 'client_secret' is from customer of SimpleAuth Config ]<br />
-                "username": "DrupalUserName"<br />
-                "password": "DrupalUserPassword"<br />
+                &apos;grant_type&apos;: &apos;password&apos;<br />
+		        &apos;client_id&apos;: &apos;SimpleAuthClientUUID&apos; [ &apos;UUID&apos; will be auto genarated after creating a Customer from SimpleAuth Config ]<br />
+                &apos;client_secret&apos;: &apos;SimpleAuthClientSecret&apos; [ &apos;client_secret&apos; is from customer of SimpleAuth Config ]<br />
+                &apos;username&apos;: &apos;DrupalUserName&apos;<br />
+                &apos;password&apos;: &apos;DrupalUserPassword&apos;<br />
 
                 <br />
                 <h4>Drupal Admin Details</h4>
